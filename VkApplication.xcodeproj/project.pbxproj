@@ -14,7 +14,7 @@
 		A308681024D96FB900E61F99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A308680E24D96FB900E61F99 /* LaunchScreen.storyboard */; };
 		A308681B24D96FB900E61F99 /* VkApplicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A308681A24D96FB900E61F99 /* VkApplicationTests.swift */; };
 		A308682624D96FB900E61F99 /* VkApplicationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A308682524D96FB900E61F99 /* VkApplicationUITests.swift */; };
-		A308683524D9702B00E61F99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A308683324D9702B00E61F99 /* Main.storyboard */; };
+		A30E90FC24D986C300078729 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A30E90FB24D986C300078729 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,10 +48,8 @@
 		A308682124D96FB900E61F99 /* VkApplicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VkApplicationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A308682524D96FB900E61F99 /* VkApplicationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VkApplicationUITests.swift; sourceTree = "<group>"; };
 		A308682724D96FB900E61F99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A308683424D9702B00E61F99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../Downloads/weather /weather/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
 		A308683A24D9721C00E61F99 /* ru */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = ru; path = ru.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A308683B24D9724200E61F99 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = "../../../Downloads/weather /weather/en.lproj/Main.strings"; sourceTree = "<group>"; };
-		A308683C24D9724700E61F99 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = "../../../Downloads/weather /weather/ru.lproj/Main.strings"; sourceTree = "<group>"; };
+		A30E90FB24D986C300078729 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +103,7 @@
 				A308680324D96FB800E61F99 /* AppDelegate.swift */,
 				A308680524D96FB800E61F99 /* SceneDelegate.swift */,
 				A308680724D96FB800E61F99 /* LoginFormController.swift */,
-				A308683324D9702B00E61F99 /* Main.storyboard */,
+				A30E90FB24D986C300078729 /* Main.storyboard */,
 				A308680C24D96FB900E61F99 /* Assets.xcassets */,
 				A308680E24D96FB900E61F99 /* LaunchScreen.storyboard */,
 				A308681124D96FB900E61F99 /* Info.plist */,
@@ -236,7 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A308683524D9702B00E61F99 /* Main.storyboard in Resources */,
+				A30E90FC24D986C300078729 /* Main.storyboard in Resources */,
 				A308681024D96FB900E61F99 /* LaunchScreen.storyboard in Resources */,
 				A308680D24D96FB900E61F99 /* Assets.xcassets in Resources */,
 			);
@@ -308,16 +306,6 @@
 				A308683A24D9721C00E61F99 /* ru */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		A308683324D9702B00E61F99 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A308683424D9702B00E61F99 /* Base */,
-				A308683B24D9724200E61F99 /* en */,
-				A308683C24D9724700E61F99 /* ru */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -569,7 +557,7 @@
 				A308682924D96FB900E61F99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
+			defaultConfigurationName = Release;
 		};
 		A308682A24D96FB900E61F99 /* Build configuration list for PBXNativeTarget "VkApplication" */ = {
 			isa = XCConfigurationList;
@@ -578,7 +566,7 @@
 				A308682C24D96FB900E61F99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
+			defaultConfigurationName = Release;
 		};
 		A308682D24D96FB900E61F99 /* Build configuration list for PBXNativeTarget "VkApplicationTests" */ = {
 			isa = XCConfigurationList;
@@ -587,7 +575,7 @@
 				A308682F24D96FB900E61F99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
+			defaultConfigurationName = Release;
 		};
 		A308683024D96FB900E61F99 /* Build configuration list for PBXNativeTarget "VkApplicationUITests" */ = {
 			isa = XCConfigurationList;
@@ -596,7 +584,7 @@
 				A308683224D96FB900E61F99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
